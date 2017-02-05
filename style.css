@@ -1,12 +1,12 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #efefef;
+  background-color: #ededed;
 }
 
 a {
   color: blue;
-  background-color: #fbfbfb;
+  background-color: #fdfdfd;
   padding: 8px;
   border-radius: 8px;
 }
@@ -26,6 +26,14 @@ img.logo {
 }
 
 .links {
+  display: flex;
   flex-direction: row;
-  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin-top: 35px;
+}
+
+.links a {
+  margin: 5px;
 }
