@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #efefef;
+}
+
+a {
+  color: blue;
+  background-color: #fbfbfb;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+img.logo {
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: monospace;
+  font-size: 1.4em;
+  flex-direction: column;
+}
+
+.links {
+  flex-direction: row;
+  margin-top: 40px;
+}
