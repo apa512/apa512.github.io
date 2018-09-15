@@ -20,7 +20,7 @@ img.logo {
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.4em;
   flex-direction: column;
 }
@@ -36,4 +36,6 @@ img.logo {
 
 .links a {
   margin: 5px;
+  text-decoration: none;
+  border: 2px solid #ddd;
 }
