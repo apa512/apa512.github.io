@@ -20,7 +20,7 @@ img.logo {
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-family: monospace;
+  font-family: 'Inconsolata', monospace;
   font-size: 1.4em;
   flex-direction: column;
 }
